@@ -54,3 +54,26 @@ class StudentExamScoresTracker:
         else:
             print(f"Student '{name}' does not exist.")
 
+
+#_main_
+
+tracker = StudentExamScoresTracker()
+
+  #_Add_students
+tracker.add_student("Ram", [97, 92, 88])
+tracker.add_student("Shyam", [68, 73, 85])
+
+  #_Update_scores
+tracker.update_scores("Ram", [95, 98, 67])
+
+  #_Display_students
+tracker.display_students()
+
+  #_Calculate_statistics
+tracker.calculate_statistics("Ram")
+tracker.calculate_statistics("Shyam")
+
+  #_Remove_Student
+tracker.remove_student("Ram")
+
+
