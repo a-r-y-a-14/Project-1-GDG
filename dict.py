@@ -54,7 +54,7 @@ while f == "yes":
     elif func == "display_students":
         display_students(dict)
     else:
-        print("Thank you, have a nice day!")
+        print("Thank you, have a nice day!!")
         break
 else:
-    print("Thank you, have a nice day!")
+    print("Thank you, have a nice day!!")
