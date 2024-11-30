@@ -6,7 +6,7 @@ while f == "yes":
     #_add_student
     if func == "add_student":
         name = input("Enter the name:")
-        scores = eval(input("Enter the scores:"))
+        scores = eval(input("Enter the scores:[maths,physics,chemistry]"))
         if name in dict.keys():
             print("Student",name,"aldready added, use update_scores to update scores")
         else:
@@ -17,7 +17,7 @@ while f == "yes":
     #_update_scores
     if func == "update_scores":
         name = input("Enter the name:")
-        scores = eval(input("Enter the scores:"))
+        scores = eval(input("Enter the scores:[maths,physics,chemistry]"))
         if name in dict.keys():
             dict[name] = scores
             print("Scores of",name,"updated succesfully")
